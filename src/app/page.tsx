@@ -1,9 +1,13 @@
-import Image from "next/image";
+import "antd/dist/reset.css";
 
-export default function Home() {
+import variables from "./variables.module.scss";
+import ClientButton from "@/components/ClientButton";
+
+export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Home Page
-    </main>
+    <>
+      <h1 style={{ color: variables.primaryColor }}>Hello, Next.js!</h1>
+      <ClientButton />
+    </>
   );
 }

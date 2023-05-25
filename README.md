@@ -66,3 +66,11 @@ docker-compose.yml
 .gitignore
 .vscode
 ```
+
+## Config Sass
+
+- config sass for nextjs
+
+```bash
+yarn add sass --dev
+```
