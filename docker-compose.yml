@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  nextjs-13-layout-antd-scss:
+    build: .
+    ports:
+      - "8000:3000"
+    volumes:
+      - .:/app
