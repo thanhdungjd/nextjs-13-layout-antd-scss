@@ -1,13 +1,13 @@
-import "antd/dist/reset.css";
-
-import variables from "./variables.module.scss";
 import ClientButton from "@/components/ClientButton";
+import styles from "./page.module.css";
+import variables from "./variables.module.scss";
 
-export default function Page() {
+export default function Home() {
   return (
-    <>
-      <h1 style={{ color: variables.primaryColor }}>Hello, Next.js!</h1>
+    <main className={styles.main}>
+      Home Page return{" "}
+      <h1 style={{ color: variables.primaryColor }}>Hello, Next.js - SASS!</h1>
       <ClientButton />
-    </>
+    </main>
   );
 }
